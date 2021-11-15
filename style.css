@@ -1,0 +1,384 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #ebf2ff;
+}
+header{
+  box-shadow: 0px 15px 10px -15px #111;
+}
+.Zomato_logo{
+  height: 67.19px;
+  width: 100px;
+  margin-left: 50px;
+
+}
+
+.navbar{
+  top: 0;
+  height: 71.19px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+
+}
+.button_primary{
+  margin-right: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0.5rem 1rem;
+  height: 50px;
+  width: 150px;
+
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+.button_primary{
+  background-image: linear-gradient(to right, #ff512f 0%, #dd2476 100%);
+}
+
+
+/*main style*/
+.Main_part{
+  display: flex;
+  height: 400px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+
+}
+.Main_text{
+  width:50%;
+  justify-content: center;
+
+
+}
+.Main_image{
+  width: 550px;
+  height: 350px;
+  width:50%;
+  padding-left: 30px;
+  padding-top: 0px;
+  justify-content: center;
+
+}
+.background_pattern{
+  width:500px;
+  height: 280px;
+  position: absolute;
+  z-index: 9;
+  top: 0px;
+
+
+}
+.Background_shape{
+  width:500px;
+  height: 280px;
+  position: absolute;
+  top: 0px;
+  z-index: 10;
+
+}
+.background_image{
+  width:508px;
+  height: 381px;
+  position: absolute;
+  overflow: hidden;
+  z-index: 11;
+  border-radius: 8px;
+}
+
+
+.button_secondary{
+
+  padding: 0.5rem 1rem;
+  height: 50px;
+  width: 125px;
+  margin-left: 130px;
+  margin-top: 20px;
+
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+.button_secondary{
+  background-image: linear-gradient(to right, #ff512f 0%, #dd2476 100%);
+}
+
+.text{
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 900;
+  color: #1d3557;
+  margin-left: 130px;
+
+}
+/*Video section*/
+.video_part{
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px;
+}
+.video_text{
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: normal;
+  color: #1d3557;
+
+}
+
+/*Video section*/
+/*Menu section*/
+.Menu_part{
+  width:80%;
+  margin-left: 150px;
+  background-image: linear-gradient(to right, #ff512f 0%, #dd2476 50%, #ff512f 100%);
+  padding: 20px;
+}
+.Menu_card_list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+}
+.food_menu_card_image{
+  height: 333px;
+  width: 333px;
+  border-radius: 8px 8px 0px 0px;
+}
+.food_menu_card_details{
+  width:333px;
+  height: 100px;
+  background-color: white;
+  border-radius: 0px 0px 8px 8px;
+}
+.Menu_text{
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 900;
+  color: #1d3557;
+  display: flex;
+  justify-content: center;
+
+}
+.text-lg{
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 100;
+  color: #1d3557;
+  padding: 10px;
+
+}
+p{
+  padding: 10px;
+  color: #1d3557;
+}
+
+/*Menu section*/
+/*Gallary part*/
+.gallery_part{
+  display: flex;
+  height: 500px;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+
+
+}
+.gallery_text{
+  width: 40%;
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 600;
+  color: #1d3557;
+  margin-left: 250px;
+}
+.image_gallery{
+  width: 60%;
+  margin-right: 100px;
+}
+.Restaurant1{
+  height: 180px;
+  width: 250px;
+  border-radius: 4px;
+
+
+}
+.Restaurant2{
+  height: 260px;
+  width: 300px;
+  border-radius: 4px;
+
+}
+.Restaurant3{
+  height: 260px;
+  width: 300px;
+  border-radius: 4px;
+
+}
+.Restaurant4{
+  height: 180px;
+  width: 250px;
+  margin-bottom: 80px;
+  border-radius: 4px;
+
+}
+/*Gallary part*/
+
+/*  email part */
+.Email_feedback{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.button_third{
+  padding: 0.5rem 1rem;
+  height: 50px;
+  width: 160px;
+  position: absolute;
+  margin-left: 340px;
+  margin-top: -41px;
+
+
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.button_third{
+  background-image: linear-gradient(to right, #ff512f 0%, #dd2476 100%);
+}
+
+.Feedback_text{
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 900;
+  color: #1d3557;
+  margin-bottom: 10px;
+
+}
+.form_control{
+  width: 320px;
+  height: 34px;
+  background-color: rgb(252, 237, 240);
+  color: rgb(29, 53, 87);
+  font-weight: 700;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(238, 137, 160);
+  padding: 0.5rem;
+  border-radius: 4px;
+  position:relative;
+}
+
+
+
+/*  email part */
+
+
+
+/*Quote part*/
+section{
+  margin: 4rem 0;
+  background-color: #ebf2ff;
+}
+div{
+  display: block;
+}
+
+
+
+.quote_part {
+    position: relative;
+    margin-top: 4rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 13px;
+    background: url(https://images.unsplash.com/photo-1522336572468-97b06e8ef143?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80) center center / cover no-repeat;
+
+}
+.quote_part {
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+.quote_image_background {
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    border-radius: 13px;
+    background-color: #0a4065;
+    opacity: 49%;
+}
+.quote_text {
+    color: #fff;
+    z-index: 3;
+    margin: 0 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+/*Quote part*/
+
+
+
+
+
+/*footer style*/
+footer{
+  background-image: linear-gradient(to right, #ff512f 0%, #dd2476 50%, #ff512f 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 1rem 1rem 0 0;
+
+}
+footer > img {
+    width: 300px;
+    filter: brightness(0) invert(1);
+}
+footer > ul {
+    margin-top: -1rem;
+    color: #fff;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer > ul > li {
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 200;
+}
+/*  footer  */
